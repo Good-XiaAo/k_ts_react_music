@@ -1,15 +1,19 @@
 {
-  "name": "my-app",
+  "name": "k_ts_react_music",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@types/jest": "^29.5.14",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
+    "axios": "^1.7.9",
     "cra-template-typescript": "1.2.0",
+    "craco-less": "^3.0.1",
+    "normalize.css": "^8.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
+    "styled-components": "^6.1.14",
     "typescript": "^5.7.2"
   },
   "scripts": {
