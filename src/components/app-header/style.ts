@@ -22,7 +22,7 @@ export const AppHeaderLeft = styled.div`
     height: 70px;
     background-position: 0 0;
     text-indent: -9999px;
-    margin-right:20px
+    margin-right: 20px;
   }
   .title-list {
     display: flex;
@@ -72,7 +72,7 @@ export const AppHeaderLeft = styled.div`
   }
 `
 export const AppHeaderRight = styled.div`
-display: flex;
+  display: flex;
   align-items: center;
   color: #787878;
   font-size: 12px;
@@ -100,9 +100,17 @@ display: flex;
     color: #ccc;
     cursor: pointer;
 
-    :hover {
+    &:hover {
       color: #fff;
       border-color: #fff;
+    }
+  }
+  .login {
+    color: #787878;
+    cursor: pointer;
+    &:hover {
+      color: #999;
+      border-bottom: 1px solid #787878;
     }
   }
 `

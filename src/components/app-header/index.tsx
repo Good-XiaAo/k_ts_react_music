@@ -62,7 +62,7 @@ const AppHeader: FC<IProps> = () => {
           <span className="login">登录</span>
         </AppHeaderRight>
       </div>
-      {/* <div className="divider"></div> */}
+      <div className="divider"></div>
     </AppHeaderStyle>
   )
 }
