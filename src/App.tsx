@@ -10,7 +10,6 @@ function App() {
       <Suspense fallback="加载中....">
         <div className="nav">{useRoutes(routes)}</div>
       </Suspense>
-
       <AppFooter />
     </div>
   )
