@@ -1,4 +1,4 @@
-import React, { memo } from 'react'
+import React, { memo, Suspense } from 'react'
 import type { FC, ReactNode } from 'react'
 import { Outlet } from 'react-router-dom'
 import { DiscoverStyle } from './style'
@@ -10,7 +10,9 @@ const Discover: FC<IProps> = () => {
   return (
     <DiscoverStyle>
       <NavBar />
-      {<Outlet />}
+      <Suspense fallback="正在加载...">
+        <Outlet />
+      </Suspense>
     </DiscoverStyle>
   )
 }
